@@ -37,10 +37,11 @@ public class Participante{
 
     @Override
     public String toString() {
-        return "Participante{" +
-                "folio=" + folio +
-                ", nombre='" + nombre + '\'' +
-                ", lugarRepresenta='" + lugarRepresenta + '\'' +
-                '}';
+        return "Participante " +
+                "folio =" + folio +
+                ", nombre ='" + nombre + '\'' +
+                ", lugar que representa ='" + lugarRepresenta + '\'';
     }
+
+
 }
