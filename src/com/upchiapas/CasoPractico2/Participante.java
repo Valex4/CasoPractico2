@@ -1,5 +1,7 @@
 package com.upchiapas.CasoPractico2;
 
+import java.util.Random;
+
 public class Participante{
     private int folio;
     private String nombre;
@@ -38,7 +40,7 @@ public class Participante{
     @Override
     public String toString() {
         return "Participante " +
-                "folio =" + folio +
+                "folio = " + folio +
                 ", nombre ='" + nombre + '\'' +
                 ", lugar que representa ='" + lugarRepresenta + '\'';
     }

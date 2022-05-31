@@ -1,6 +1,7 @@
 package com.upchiapas.CasoPractico2;
 
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -32,11 +33,13 @@ public class Main {
         }while (opcion !=3);
     }
     public static void ingresarValores(){
-        int folio;
+        int folio = 0;
+        Random r= new Random();
+        folio=(int)(r.nextDouble()*100);
         String nombre;
         String lugarRepresenta;
         System.out.println("Ingrese su numero de Folio: ");
-        folio=entrada.nextInt();
+        System.out.println(folio);
         System.out.println("Ingrese su nombre: ");
         nombre = entrada.next();
         System.out.println("Ingrese el lugar que representa: ");
