@@ -2,12 +2,12 @@ package com.upchiapas.CasoPractico2;
 
 import java.util.Random;
 
-public class Participante{
+public class Participante{ //clase principal
     private int folio;
-    private String nombre;
+    private String nombre;  // atributos
     private String lugarRepresenta;
 
-    public Participante(int folio, String nombre, String lugarRepresenta) {
+    public Participante(int folio, String nombre, String lugarRepresenta) { //constructor con parametros
         this.folio = folio;
         this.nombre = nombre;
         this.lugarRepresenta = lugarRepresenta;
